@@ -1,7 +1,7 @@
 body{
-    background-image: url(https://wallpapers.com/images/hd/1920-x-1080-anime-dark-itachi-ejdjsxl2mx79haok.jpg);
+    background-image: url(https://wallpapers.com/images/hd/1920-x-1080-anime-dark-itachi-ejdjsxl2mx79haok.jpg) ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-size: cover;
     overflow: hidden;
     overflow-y: scroll;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="kontakt">
@@ -7,56 +8,53 @@
     <title>Kontakt</title>
     <link rel="stylesheet" href="kontakt.css">
 </head>
+
 <body>
-    <form>
-    <section>
-        <div><h4>Nehme ich Ihre Nachricht gerne an :) </h4></div>
+    <h4>Kontakt: </h4>
+    <p id="verweis">Die Zellen mit <sup>*</sup> sind pflichtet !!</p>
+    <form method="post">
+
+        <label for="anrede"><p>Anrede:<sup>*</sup></p></label>
+
+        <select name="anrede" id="anrede" required autofocus>
+            <option value="Herr">Herr</option>
+            <option value="Frau">Frau</option>
+            <option value="Andere">Andere</option>
+        </select>
+
+
+        <label for="vorName">
+            <p>Vorname:<sup>*</sup></p>
+        </label>
+        <input id="vor" type="text" required placeholder="Vorname" name="Vorname">
+
+        <label for="nach">
+            <p>Nachname:<sup>*</sup></p>
+        </label>
+        <input id="nach" type="text" required placeholder="Nachname" name="Nachname">
+
+        <label for="mail">
+            <p>E-Mail:<sup>*</sup></p>
+        </label>
+        <input id="mail" type="email" required placeholder="E-Mail" name="email">
+
+        <hr>
+        <label for="nachricht">
+            <p class="massage">Nachricht:</p>
+        </label>
+
+        <textarea name="nachricht" id="nachricht" cols="75" rows="20" placeholder="Die Nachricht"
+            name="Nachricht"></textarea>
+
+
         <div>
-            <p>Die Zellen mit <sup>*</sup> sind pflichtet !!</p>
+            <input type="reset" class="reset" value="Zurücksetzen" name="reset">
+            <input type="submit" class="submit" value="Abschicken" name="submit">
         </div>
-         <div>
-                <input id="herr" type="radio" name="Anrede" value="herr" checked>
-                <label for="herr"> Herr</label>
-            
-                <input id="frau" type="radio" name="Anrede" value="frau" >
-                <label for="frau">Frau</label>
-            
-                <input id="and" type="radio" name="Anrede" value="andere" >
-                <label for="and">Andere</label>
-        </div> 
-            
-            <!-- <form method="post">
-                <div>
-                <label for="anrede" >Anrede:    *</label>
-                <select name="anrede" id="anrede" required autofocus>
-                    <option value="Herr">Herr</option>
-                    <option value="Frau">Frau</option>
-                    <option value="Andere">Andere</option>
-                </select> -->
-    </section>
-            <div>
-                 <label for="vor">Vorname:</label>
-                 <input id="vor" type="text" required placeholder="Vorname" name="Vorname">
-            </div>
-            <div>
-                <label for="nach">Nachname:</label>
-                 <input id="nach" type="text" required placeholder="Nachname" name="Nachname">
-            </div>
-            <div>
-                <label for="mail">E-Mail:</label>
-                <input id="mail" type="email" required placeholder="E-Mail" name="email">
-            </div>
-            <hr>
-            <div>   <label for="nachricht">Nachricht:</label></div>
-            <div>
-               <textarea name="nachricht" id="nachricht" cols="30" rows="10" placeholder="Die Nachricht" name="Nachricht"></textarea>
-            </div>
-            <div class="button" >
-                <input type="reset" class="reset" value="Zurücksetzen" name="reset">
-                <input type="submit" class="submit" value="Abschicken" name="submit">
-            </div>
-            
+
+
     </form>
-    
+
 </body>
+
 </html>
