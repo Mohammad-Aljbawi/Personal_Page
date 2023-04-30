@@ -1,0 +1,104 @@
+body{
+    background-image:url(https://images5.alphacoders.com/413/413842.jpg);
+    background-repeat: no-repeat;
+    background-position: sticky;
+    background-attachment:scroll;
+    background-size:cover;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #222;
+    font-weight: 400;
+    font-family: Poppins;
+}
+::selection{
+    background-color: rgb(166, 233,166);
+    color: rgb(113, 113, 211);
+}
+
+h2{
+    text-align: center;
+    color: rgb(17, 161, 12);
+    position: relative; 
+    font-size:24pt ;  
+    padding-top: 0%; 
+    margin-top: auto;
+}
+p{
+    font-size: small;
+}
+
+::placeholder,input[type=text], select,[type=date]{
+    text-align: center;
+    opacity: 66%;
+}
+
+input[type=text], select,[type=date], [type=email] {
+    width: 50%;
+    padding: 12px 30px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+
+
+input[type=password], [type=email_wiedrholen],[type=tel], [type=file]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+input[type=text]:hover, select:hover,[type=date]:hover, [type=email]:hover{
+    outline: none;
+    background-color: #6fb98f;
+    border: 2px solid rgb(105, 7, 105);
+    color: #080808;
+}
+input[type=password]:hover,[type=tel]:hover, [type=file]:hover{
+    outline: none;
+    background-color: #6fb98f;
+    border: 2px solid rgb(105, 7, 105);
+    color: #0a0909;
+}
+
+
+.reset, .submit{
+    background-color: rgb(47, 47, 48);
+    text-align: center;
+    border-radius: 5px;
+    width: 25%;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 260px;
+    
+
+}
+
+
+
+.reset:hover,.submit:hover{
+    outline: none;
+    background-color: #6fb98f;
+    border: 2px solid rgb(167, 17, 54);
+    color: #222;
+
+}
+
+
+
+
+.submit:focus{
+    width: 230px;
+    border-color: #6fb98f;
+  }

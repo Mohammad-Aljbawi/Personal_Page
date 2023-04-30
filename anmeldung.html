@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="anmeldung" content="Anmeldeung bei meiner Seite">
+    <link rel="stylesheet" href="anmeldung.css">        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Anmeldung</title>
+</head>
+<body>
+        <div>
+            <h2>Anmeldung</h2>
+            
+        </div>
+
+           <form method="post">
+                 <select name="anrede" type="text" onfocus="(this.type = 'text')" required placeholder="Anrede"onblur="(this.type='text')" >
+                     <option value="Herr">Herr</option>
+                     <option value="Frau">Frau</option>
+                     <option value="Andere">Andere</option>
+                </select>
+                    <input id="vor" type="text" required placeholder="Vorname ">
+                    <input id="nach" type="text" required placeholder="Nachname">
+
+                    <div class="datum">
+                        <input type="date" type="text" onfocus="(this.type = 'date')" required placeholder="Geburtsdatum"onblur="(this.type='text')">
+                    </div>
+
+                    <div class="email">
+                        <input id="mail"  type="email"  required placeholder="E-Mail"/><br/>
+                    </div>
+
+                
+                    <div class="email_wiederholen">
+                        <input id="mail" type="email" required placeholder="E-Mail Wiederholen" name="eMail">
+                    </div>
+
+                <input type="password" id="pass" min="8" max="20" required placeholder="Passwort">
+          
+                <input type="tel" placeholder="Handynummer" name="telefonNumber">
+    
+      
+                <input type="file" accept="image/*" value="Profile's Photo" name="Datei">
+          
+
+            <div>
+                <input class="reset" type="reset" value="Zurücksetzen">
+                <input class="submit" type="submit" value="Abschicken">
+            </div>
+        </form>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="feedback">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedBack.css">
+</head>
+<body>
+    
+    <div>
+        <div><h4>Nehmen wir Ihr Feedback gerne an :) </h4>
+        </div>
+        <div>
+            <p>Die Zellen mit <sup>*</sup> sind pflichtet !!</p>
+        </div>
+         <!-- <div>
+                <input id="herr" type="radio" name="herr" value="herr" checked>
+                <label for="herr"> Herr</label>
+            </div>
+            <div>
+                <input id="frau" type="radio" name="frau" value="frau" >
+                <label for="frau">Frau</label>
+            </div>
+            <div>
+                <input id="and" type="radio" name="andere" value="andere" >
+                <label for="and">Andere</label>
+            </div> -->
+            
+            <form method="post" >
+            <div>
+                <label for="anrede" >Anrede:<sup>*</sup></label>
+                <select name="anrede" id="anrede" required autofocus >
+                    <option value="Herr">Herr</option>
+                    <option value="Frau">Frau</option>
+                    <option value="Andere">Andere</option>
+                </select>
+            </div> 
+               <div>
+                 <label for="vor">Vorname:<sup>*</sup></label>
+                 <input id="vor" type="text" required placeholder="Vorname" name="vorname">
+            </div>
+            <div>
+                <label for="nach">Nachname:<sup>*</sup></label>
+                 <input id="nach" type="text" required placeholder="Nachname" name="nachname">
+            </div>
+            <div>
+                <label for="mail">E-Mail:<sup>*</sup></label>
+                <input id="mail" type="email" required placeholder="E-Mail" name="email">
+            </div>
+            <hr>
+            <div>   <label for="Fee">Feedback:<sup>*</sup></label></div>
+            <div>
+               <textarea id="Fee" cols="100" rows="10" placeholder="Feedback" name="feedback_text"></textarea>
+            </div>
+            <div>
+                <input type="reset" name="reset" value="Zurücksetzen">
+                <input type="submit" name="submit" value="Abschicken">
+            </div>
+        </form>
+        
+
+    </div>
+</body>
+</html>
