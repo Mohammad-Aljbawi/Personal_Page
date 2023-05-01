@@ -1,18 +1,43 @@
 body{
-    background-image: url(https://images.all-free-download.com/images/graphicwebp/blue_abstract_background_310971.webp);
+    background-image: url(https://wallpapercave.com/wp/wp5416648.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
     overflow-y: scroll;
     background-position: center;
-    color: rgb(19, 158, 140);
+    color: rgb(16, 17, 17);
     margin: 0%;
     line-height: 1.6;
     font-weight: 400; 
     font-family: Poppins;
     text-align: center;
     padding-bottom: 50px;
+}
+
+h2{
+  text-align: center;
+  color: rgb(13, 1, 1);
+  position: relative;
+  float: inline-start;
+  background-color:rgb(83 251 252);
+  margin-top: 0;
+  padding: 25px;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h4{ 
+  text-align: center;
+  color: rgb(13, 1, 1);
+  position: relative;
+  float: inline-start;
+  background-color:rgb(83 251 252);
+  margin-top: 25px;
+  margin-bottom: 0px;
+  padding: 15px;
+  font-size:20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #schulung, #personalInfo {
@@ -23,6 +48,7 @@ body{
   }
   
   #schulung td, #schulung th, #personalInfo td, #personalInfo th {
+    margin-top: 0px;
     border: 1px solid #ddd;
     padding: 8px;
     
@@ -32,16 +58,16 @@ body{
 
   #personalInfo tr:nth-child(even){background-color: #f2f2f2;}
   
-  
   #schulung tr:hover {background-color: #ddd;}
 
   #personalInfo tr:hover {background-color: #ddd;}
   
   #schulung th, #personalInfo th {
-    padding-top: 12px;
+ 
     padding-bottom: 12px;
     text-align: center;
-    background-color: #04AA6D;
+    background-color: #151615;
     color: white;
+    margin-top: 0px;
   }
   
