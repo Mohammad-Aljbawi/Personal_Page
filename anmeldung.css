@@ -12,10 +12,6 @@ body{
     font-weight: 400;
     font-family: Poppins;
 }
-::selection{
-    background-color: rgb(166, 233,166);
-    color: rgb(113, 113, 211);
-}
 
 h2{
     text-align: center;
